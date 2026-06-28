@@ -1,0 +1,8 @@
+number = int(input("Enter the number: "))
+# if number % 2 == 0:
+#     print("Even number")
+# else:
+#     print("Odd number")
+
+result = "Even number" if number % 2 == 0 else "Odd number"
+print(result)
